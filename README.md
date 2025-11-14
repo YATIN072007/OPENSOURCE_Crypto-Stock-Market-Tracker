@@ -77,7 +77,7 @@ Print the data in the console
 
 Expose endpoints for frontend usage (if enabled)
 
-Project Structure
+#Project Structure
 
 server.js - Main backend server
 prices.js - Fetches and processes real-time prices
@@ -88,7 +88,7 @@ README.md - Project documentation
 
 This structure is intentionally simple so you can extend it however you want.
 
-Future Enhancements
+# Future Enhancements
 
 Possible future additions:
 
@@ -104,7 +104,7 @@ WebSocket live price updates
 
 IoT market indicators (LEDs, motors, ESP32 displays, etc.)
 
-Contributing
+# Contributing
 
 Contributions are welcome!
 To contribute:
@@ -117,12 +117,12 @@ Commit with clear messages
 
 Open a pull request
 
-License
+# License
 
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute it.
 
-Acknowledgements
+# Acknowledgements
 
 Thanks to the open-source community and public market-data APIs that make this project possible.
 If you build a dashboard, IoT display, or full application using this tracker, feel free to share it!
