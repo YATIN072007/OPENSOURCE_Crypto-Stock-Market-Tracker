@@ -48,74 +48,67 @@ dotenv for environment configuration
 
 # Installation & Setup
 
-Clone the Repository
-git clone https://github.com/YATIN072007/OPENSOURCE_Crypto-Stock-Market-Tracker.git
+1.> Clone the Repository
+    git clone https://github.com/YATIN072007/OPENSOURCE_Crypto-Stock-Market-Tracker.git
+    cd OPENSOURCE_Crypto-Stock-Market-Tracker
 
-cd OPENSOURCE_Crypto-Stock-Market-Tracker
+2.> Install Dependencies
+    npm install
 
-Install Dependencies
-npm install
+3.> Environment Setup
+    Create a .env file in the root directory:
+    API_KEY=your_api_key_here
+    CRYPTO_LIST=BTC,ETH,SOL
+    STOCK_LIST=AAPL,TSLA,MSFT
 
-Environment Setup
-Create a .env file in the root directory:
+4.> Start the Backend
+    npm start
+    OR
+    node server.js
 
-API_KEY=your_api_key_here
-CRYPTO_LIST=BTC,ETH,SOL
-STOCK_LIST=AAPL,TSLA,MSFT
+5.> Live Tracking
+    Once running, the backend will:
+    Fetch prices at your defined intervals
+    Print the data in the console
+    Expose endpoints for frontend usage (if enabled)
 
-Start the Backend
-npm start
-OR
-node server.js
-
-Live Tracking
-Once running, the backend will:
-
-Fetch prices at your defined intervals
-
-Print the data in the console
-
-Expose endpoints for frontend usage (if enabled)
-
-#Project Structure
-
-server.js - Main backend server
-prices.js - Fetches and processes real-time prices
-cache.js - Optional caching module
-.env.example - Example environment file
-package.json - Node metadata and script definitions
-README.md - Project documentation
-
-This structure is intentionally simple so you can extend it however you want.
+# Project Structure
+  server.js - Main backend server
+  prices.js - Fetches and processes real-time prices
+  cache.js - Optional caching module
+  .env.example - Example environment file
+  package.json - Node metadata and script definitions
+  README.md - Project documentation
+  This structure is intentionally simple so you can extend it however you want.
 
 # Future Enhancements
 
 Possible future additions:
 
-A full frontend dashboard
-
-Price alerts (SMS, email, push notifications)
-
-Portfolio tracking
-
-Historical data storage & graphing
-
-WebSocket live price updates
-
-IoT market indicators (LEDs, motors, ESP32 displays, etc.)
+  A full frontend dashboard
+  
+  Price alerts (SMS, email, push notifications)
+  
+  Portfolio tracking
+  
+  Historical data storage & graphing
+  
+  WebSocket live price updates
+  
+  IoT market indicators (LEDs, motors, ESP32 displays, etc.)
 
 # Contributing
 
 Contributions are welcome!
 To contribute:
 
-Fork the repository
-
-Create a feature branch
-
-Commit with clear messages
-
-Open a pull request
+  Fork the repository
+  
+  Create a feature branch
+  
+  Commit with clear messages
+  
+  Open a pull request
 
 # License
 
